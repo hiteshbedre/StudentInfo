@@ -105,7 +105,7 @@ public class AdminHandler {
 		};
 
  // 添加
- 	@RequestMapping("/addStudent")
+ 	@RequestMapping("/mysaas/customerid/account/date")
  	public String addStudent(Student student, Model model) {
  		
  		
