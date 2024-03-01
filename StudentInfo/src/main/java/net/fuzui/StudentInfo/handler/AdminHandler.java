@@ -145,7 +145,7 @@ public class AdminHandler {
  	}
  	
  	// 查询
- 	@RequestMapping(value = "account/{accountId}/addInterest", method = RequestMethod.GET)
+ 	@RequestMapping(value = "customerid/account/date", method = RequestMethod.GET)
  	public String redirect(@RequestParam("serc") String serc, @RequestParam("condition") String condition,HttpServletRequest request,
  			@PathVariable(value = "pn") String pn,Model model) {
 
